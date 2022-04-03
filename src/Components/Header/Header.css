@@ -1,0 +1,14 @@
+.nav-item{
+    padding: 30px;
+    background-color: #f1f2f6;
+    text-align: center;
+}
+
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #eb4d4b;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+}

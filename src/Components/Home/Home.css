@@ -1,0 +1,38 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-container{ 
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.text-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text-container h1.second-heading{
+    color: #eb4d4b;
+}
+
+.demo-btn{
+    background-color: #eb4d4b;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.demo-btn:hover{
+    cursor: pointer;
+}
+
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+}
