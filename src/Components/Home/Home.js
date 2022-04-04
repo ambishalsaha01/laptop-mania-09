@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UsersReview from '../../hooks/UsersReview';
 import User from '../User/User';
 import './Home.css'
@@ -6,7 +7,6 @@ import images from './laptop.png'
 
 const Home = () => {
     const [users, setUsers] = UsersReview();
-    // console.log(users)
 
     return (
         <div>
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             {/* Review container start here */}
             <div className="container">
-                <h2>Customer Review{users.length}</h2>
+                <h2 style={{textAlign: 'center', marginBottom: '30px'}}>Customer Review ({users.length})</h2>
                 <div className="review-container">
                     {
                         users.slice(0, 3).map(user => <User
@@ -32,6 +32,9 @@ const Home = () => {
                             user={user}
                         ></User>)
                     }
+                </div>
+                <div className='more-review'>
+                    <Link to='/review'>See All Review</Link>
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 import React from 'react';
-import './User.css'
 
-const User = (props) => {
+const Review = (props) => {
     const {name, picture, description, ratings} = props.user;
     return (
         <div className='user-container'>
@@ -17,4 +16,4 @@ const User = (props) => {
     );
 };
 
-export default User;
+export default Review;

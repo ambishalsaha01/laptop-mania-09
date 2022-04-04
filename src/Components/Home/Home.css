@@ -6,6 +6,7 @@
 .home-container{ 
     padding: 50px 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -19,7 +20,8 @@
     color: #eb4d4b;
 }
 
-.demo-btn{
+.demo-btn,
+.more-review a{
     background-color: #eb4d4b;
     color: #fff;
     padding: 10px 15px;
@@ -28,11 +30,28 @@
     font-size: 18px;
 }
 
-.demo-btn:hover{
+.demo-btn:hover,
+.more-review a:hover{
     cursor: pointer;
 }
 
 .img-container img{
     width: 100%;
     object-fit: cover;
+}
+
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 20px 0;
+}
+
+.more-review{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.more-review a{
+    text-decoration: none;
 }
