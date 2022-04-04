@@ -10,8 +10,8 @@ const MyLineChart = () => {
     },[])
     return (
         <LineChart width={400} height={400} data={data}>
-            <Line
-             dataKey={'month'} dataKey={'sell'}></Line>
+            <Line dataKey={'month'}></Line>
+            <Line dataKey={'sell'}></Line>
         </LineChart>
     );
 };

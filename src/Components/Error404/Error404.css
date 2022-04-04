@@ -1,0 +1,10 @@
+.error-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-container img{
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(235, 78, 75, 0.478);
+}
