@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="text-container">
                     <h1>Your Next Laptop</h1>
                     <h1 className='second-heading'>Your Best Laptop</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus nisi quo quidem quam. Ipsam ipsum quasi sapiente ipsa hic possimus nihil vitae? Ipsum quos ad nihil deserunt excepturi voluptatibus!</p>
+                    <p>The speciality in laptop computers include light weight and lower energy consumption. Also they are less noisy and easy to handle. Similar to desktop computers the laptop computers include mother board, processor, hard disk, memory, graphic card, keyboard, mouse and display device.</p>
                     <button className='demo-btn'>Live Demo</button>
                 </div>
                 <div className="img-container">
